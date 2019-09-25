@@ -2,12 +2,12 @@
 
 ## Fonctions
 
-WIP: For now it's just an http hello world server. 
+WIP: For now it's just an HTTP hello world server. 
 
 It returns:
  - `Hello world` on `GET /` request.
- - `What's your name?` on `GET /hello` request.
- - `Hello <name>!` on `GET /hello?name=<name>` request.
+ - `Quel est votre nom?` on `GET /hello` request.
+ - `Bonjour <nom>!` on `GET /hello?nom=<nom>` request.
 
 ## Installation
 
