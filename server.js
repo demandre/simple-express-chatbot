@@ -8,11 +8,11 @@ app.get('/', function (req, res) {
 })
 
 app.get('/hello', function (req, res) {
-    let name = req.query.name
-    if(typeof name !== 'undefined') {
-        res.send('Hello ' + name + '!')
+    let nom = req.query.nom
+    if(typeof nom !== 'undefined') {
+        res.send('Bonjour ' + nom + '!')
     } else {
-        res.send('Whats your name?')
+        res.send('Quel est votre nom?')
     }
 })
 
