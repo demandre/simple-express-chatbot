@@ -12,13 +12,22 @@ It returns:
  - `Nous sommes à Paris` on `POST /chat` request with `{msg:ville}` data
 
 
-## Installation
+## Installation (need node/npm available)
 
 ```sh
 $ git clone https://github.com/demandre/simple-express-chatbot.git
 $ cd simple-express-chatbot
 $ npm install
 $ npm start # launch HTTP server on port 3000
+```
+
+## Installation dockerized
+
+```sh
+$ git clone https://github.com/demandre/simple-express-chatbot.git
+$ cd simple-express-chatbot
+$ docker build -t <your-username>/node-simple-express-chatbot .
+$ docker run -p 3000:3000 -d <your-username>/node-simple-express-chatbot 
 ```
 
 ## Tests
